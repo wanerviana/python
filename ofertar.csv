@@ -1,0 +1,12 @@
+,produto,marca,valor,local,cep,data
+0,arroz,arroz,21,mercado1,14,22/01/2023
+1,feijao,feijao,12,mercado2,14,22/01/2023
+2,sal,sal,3,mercado2,14,23/01/2023
+3,arroz,arroz,21,mercado2,10,22/01/2023
+4,feijao,feijao,12,mercado1,16,22/01/2023
+5,sal,sal,5,mercado2,14,23/01/2023
+6,sal,sal,4,mercado1,14,25/01/2023
+7,arroz,arroz,25,mercado3,14,02/02/2023
+8,feijao,feijao,11,mercado3,14,03/02/2023
+9,banana,banana,6,mercado5,14,01/02/2023
+10,banana,banana,5,mercado1,14,03/02/2023

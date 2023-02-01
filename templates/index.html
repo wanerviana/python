@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+</head>   
+<body> 
+<div align="center">
+    <img src="https://th.bing.com/th/id/OIP.zJ1tAqUI-uhw2r5g4Cj2LAHaEH?w=287&h=180&c=7&r=0&o=5&pid=1.7">
+    <br>
+    <form action="greet" method="post">
+        {% for message in get_flashed_messages() %}
+             <p>{{ message }}</p>
+         {% endfor %}
+        <br>
+        <input type="text" name='name_input'>
+  
+    
+        <br>
+        <input type="submit" value="PROCURAR" id="greet">
+    </form>
+    <div>
+        <h2>Você encontra o melhor preço para seu produto em :</h2></div>
+        <div style="font-size: xx-large;"><p> {{ menor }}</p></div>
+        <p></p>
+        <p></p>
+        <h2>Você pode ter economizado até :</h2>
+        <p><div style="font-size: x-large;">r$ {{ diferenca }} Reais</div></p>
+    </div>
+    
+    
+        
+    </div>
+</div>
+</body>
+</html>
